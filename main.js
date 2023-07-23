@@ -126,11 +126,11 @@ loginForm.addEventListener("submit", (e) => {
 
   Email.send({
     Host: "smtp.elasticemail.com",
-    Username: 'sholynk',
-    Password: 'but why',
-    To: 'seun33154@gmail.com',
-    From: "sholabusari66@gmail.com",
-    Subject: "Contact message",
+    Username: "seun33154@gmail.com",
+    Password: "37CD2A8F142F4D1A9E4BBA0A0962C2C72084",
+    To: 'sholabusari66@gmail.com',
+    From: "seun33154@gmail.com",
+    Subject: "This is the subject",
     Body: body
   }).then(
     message => alert(message)
