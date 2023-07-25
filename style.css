@@ -1,4 +1,4 @@
-78@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Oswald:wght@300;400&family=Pacifico&family=Playfair+Display:ital,wght@1,700&family=Roboto:ital,wght@1,900&family=Teko&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Oswald:wght@300;400&family=Pacifico&family=Playfair+Display:ital,wght@1,700&family=Roboto:ital,wght@1,900&family=Teko&family=Tilt+Prism&display=swap');
 
 
 /*
@@ -87,7 +87,7 @@ body {
 /*....Header/NavBar....*/
 header {
   z-index: 10;
-  width: 100%;
+  width: 100vw;
   height: 5em;
   position: fixed;
   top: 0;
@@ -164,7 +164,7 @@ header i {
 
 /* ....media query for bigger Screens.....*/
 
-@media (min-width: 30em) {
+@media (min-width: 30em) and (max-width: 60em){
 
   .swiper {
     height: 25em;
@@ -177,7 +177,7 @@ header i {
 
   .Desktop-header {
     z-index: 1;
-    width: 100%;
+    width: 100vw;
     height: 5em;
     padding: 1em;
     display: flex;
