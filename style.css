@@ -162,7 +162,7 @@ header i {
 
 /* ....media query for bigger Screens.....*/
 
-@media (min-width: 30em) and (max-width: 60em){
+@media (min-width: 50em){
 
   .swiper {
     height: 25em;
