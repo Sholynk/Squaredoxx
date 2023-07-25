@@ -97,8 +97,6 @@ header {
   justify-content: space-around;
   background-color: skyblue;
   box-shadow: 2px 5px 3px #000;
-  border-left: 5px solid #333;
-  border-right: 5px solid #333;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
 }
